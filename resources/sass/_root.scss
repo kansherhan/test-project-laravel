@@ -1,0 +1,60 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+
+    font-size: $default-font-size;
+
+    color: $font-color;
+
+    line-height: $text-line-height;
+
+    font-family: $text-font-family;
+
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: $post-title-font-size;
+}
+
+.h2 {
+    font-size: $post-title-font-size;
+}
+
+body {
+    background-color: $body-color;
+}
+
+hr {
+    border: 1px solid #adb5bd;
+
+    margin: 30px auto;
+    width: 90%;
+
+    opacity: 0.7;
+}
+
+.container {
+    background-color: #fff;
+
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.icon {
+    display: block;
+
+    width: 25px;
+    height: auto;
+}
+
+.app-name {
+    color: #fff;
+
+    font-family: $app-name-font-family;
+}

@@ -1,0 +1,246 @@
+@import url(https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Slab:wght@400;700&display=swap);
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: #161616;
+  line-height: 1.7;
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.h2 {
+  font-size: 24px;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+hr {
+  border: 1px solid #adb5bd;
+  margin: 30px auto;
+  width: 90%;
+  opacity: 0.7;
+}
+
+.container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.icon {
+  display: block;
+  width: 25px;
+  height: auto;
+}
+
+.app-name {
+  color: #fff;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 3px 5px;
+  border: 1px solid #20639B;
+  border-radius: 5px;
+}
+.form-input-group {
+  margin-bottom: 20px;
+}
+.form-input-group.form-input-file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px dashed #20639B;
+  border-radius: 5px;
+}
+.form-input-group.form-input-file > label {
+  margin-right: 15px;
+}
+.form-input-group:last-child {
+  margin-bottom: 0;
+}
+.form-input-submit {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #20639B;
+  cursor: pointer;
+}
+.form-input-submit:hover {
+  background-color: #173F5F;
+}
+.form-input-textarea {
+  display: block;
+  padding: 5px;
+  width: 100%;
+  min-height: 200px;
+  font-size: 14px;
+  border: 1px solid #20639B;
+  border-radius: 5px;
+}
+.form-error {
+  font-size: 14px;
+  color: #ff2a00;
+}
+
+.edit-title {
+  margin-bottom: 10px;
+}
+.edit-content {
+  padding: 25px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.post-header-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-header-buttons > .post-button {
+  margin-right: 10px;
+}
+.post-header-buttons > .post-button:last-child {
+  margin-right: 0;
+}
+.post-button {
+  display: block;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #173F5F;
+}
+.post-button-image {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.post-content {
+  padding: 25px;
+}
+.post-username {
+  font-weight: 700;
+  margin-right: 10px;
+}
+.post-date {
+  color: #adb5bd;
+  font-size: 14px;
+}
+.post-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 10px 0 20px 0;
+  border-radius: 7px;
+}
+.post-collection-content {
+  padding: 25px;
+}
+.post-collection-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.post-collection-item-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.post-collection-item-info {
+  margin-right: 30px;
+}
+.post-collection-item-username {
+  font-weight: 700;
+  margin-right: 10px;
+}
+.post-collection-item-date {
+  color: #adb5bd;
+  font-size: 14px;
+}
+.post-collection-item-title {
+  display: block;
+  text-decoration: none;
+  margin: 5px 0 15px 0;
+}
+.post-collection-item-image {
+  display: block;
+  width: 400px;
+  height: auto;
+  border-radius: 7px;
+}
+.post-comments-item {
+  margin-top: 30px;
+}
+.post-comments-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.post-comments-author {
+  font-weight: 700;
+  margin-right: 15px;
+}
+.post-comments-date {
+  color: #adb5bd;
+  font-size: 14px;
+}
+.post-comments-image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 200px;
+}
+
+@media (max-width: 992px) {
+  .post-collection-item-content {
+    flex-direction: column;
+  }
+  .post-collection-item-image {
+    margin-top: 10px;
+    width: auto;
+  }
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 15px;
+  background-color: #173F5F;
+}
+.header-title {
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px 15px;
+  background-color: #173F5F;
+}
+.footer-content * {
+  color: #fff;
+}

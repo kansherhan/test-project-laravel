@@ -1,0 +1,17 @@
+.footer {
+    &-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+
+        padding: 25px 15px;
+
+        background-color: $base-color;
+
+        & * {
+            color: #fff;
+        }
+    }
+}

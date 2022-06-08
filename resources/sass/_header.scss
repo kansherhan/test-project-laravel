@@ -1,0 +1,17 @@
+.header {
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        flex-direction: row;
+
+        padding: 10px 15px;
+
+        background-color: $base-color;
+    }
+
+    &-title {
+        color: #fff;
+    }
+}
